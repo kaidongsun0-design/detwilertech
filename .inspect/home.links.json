@@ -1,0 +1,1154 @@
+[
+  {
+    "href": "https://drive.google.com/file/d/1s_R6b3MsQ6jgEJFvBjxAAghjRwIoINIs/view?usp=share_link",
+    "text": "Product Catalog",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/production-capacity",
+    "text": "Production Capacity",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/products",
+    "text": "Nework Cabling",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat5e-modular-plug/",
+    "text": "CAT5E Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat6-modular-plug/",
+    "text": "CAT6 Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat6a-modular-plug/",
+    "text": "Cat6a Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat5e-keystone-jack/",
+    "text": "CAT5E Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6-keystone-jack/",
+    "text": "CAT6 Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6a-keystone-jack/",
+    "text": "CAT6A Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/",
+    "text": "Patch Cord Or Raw Cable",
+    "cls": "",
+    "parentCls": "menu-item LiLevel1"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat5e-patch-cord/",
+    "text": "CAT5E Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat6-patch-cord/",
+    "text": "CAT6 Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat6a-patch-cord/",
+    "text": "CAT6A Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/fiber-optic-cable/",
+    "text": "Fiber Optics",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/industrial-ethernet-cable/",
+    "text": "Industrial Ethernet Cable",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/charging-cable/",
+    "text": "Charging Cable",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/bulk-cable/",
+    "text": "Cable Spool",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/",
+    "text": "Cable Manager",
+    "cls": "",
+    "parentCls": "menu-item LiLevel1"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/",
+    "text": "Optical Communication",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/dac-aoc-cables/",
+    "text": "DAC/AOC Cable",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/",
+    "text": "Optical Module",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-patch-cord/",
+    "text": "Fiber Patch Cord",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/mpo-patch-cord/",
+    "text": "MPO Patch Cord",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-optic-connector/",
+    "text": "Fiber Optic Connector",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/smart-home/power-supply-socket/",
+    "text": "Power Supply Socket",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-prev"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+  },
+  {
+    "href": "/production-capacity",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+  },
+  {
+    "href": "/production-capacity",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-duplicate-next"
+  },
+  {
+    "href": "/production-capacity",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-prev"
+  },
+  {
+    "href": "/production-capacity",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-active"
+  },
+  {
+    "href": "/production-capacity",
+    "text": "",
+    "cls": "",
+    "parentCls": "swiper-slide swiper-slide-duplicate swiper-slide-next"
+  },
+  {
+    "href": "patch-cord-or-jumper/",
+    "text": "Patch Cord Or Raw Cable",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "optical-communication-products/",
+    "text": "Optical Communication",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "cable-manager/",
+    "text": "Cable Manager",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6a-keystone-jack/mini-short-body-shielded-cat6a-jack-module.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6a-keystone-jack/mini-short-body-shielded-cat6a-jack-module.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-patch-cord/lc-lc-fiber-optic-cable-patch-cord.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-patch-cord/lc-lc-fiber-optic-cable-patch-cord.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/mpo-patch-cord/om4-multimode-fiber-optic-mpo-fiber-patch.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/mpo-patch-cord/om4-multimode-fiber-optic-mpo-fiber-patch.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/lc-interface-10g-singlemode-dual-fiber.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/lc-interface-10g-singlemode-dual-fiber.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/40g-mpo-dci-coherent-qsfp-optical-module.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/40g-mpo-dci-coherent-qsfp-optical-module.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/100g-qsfp28-sr4-fiber-optic-transceiver.html",
+    "text": "",
+    "cls": "lazy-wrap",
+    "parentCls": "repro-item-img"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/100g-qsfp28-sr4-fiber-optic-transceiver.html",
+    "text": "view more",
+    "cls": "repro-more",
+    "parentCls": "repro-item-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/data-center-cabinet-cable-arrangement-tray.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "newpro-item-l"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/data-center-cabinet-cable-arrangement-tray.html",
+    "text": "Cable Management Tray Cable Manager For Data Center Rack",
+    "cls": "newpro-name line2",
+    "parentCls": "newpro-item-r"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/data-center-cabinet-cable-arrangement-tray.html",
+    "text": "view more",
+    "cls": "newpro-more",
+    "parentCls": "newpro-item-r"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/1-meter-22-5u-vertical-cable-management-rack.html",
+    "text": "",
+    "cls": "lazy-wrap lazy-loaded",
+    "parentCls": "newpro-item-l"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/1-meter-22-5u-vertical-cable-management-rack.html",
+    "text": "1-Meter 22.5U Plastic Vertical Cable Management Rack",
+    "cls": "newpro-name line2",
+    "parentCls": "newpro-item-r"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/1-meter-22-5u-vertical-cable-management-rack.html",
+    "text": "view more",
+    "cls": "newpro-more",
+    "parentCls": "newpro-item-r"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-transceiver-types-for-400g-qsfp-dd-103528407.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-transceiver-types-for-400g-qsfp-dd-103528407.html",
+    "text": "QSFP-DD transceiver:SR8 DR4 FR4 LR4 Guide",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/mpo-fiber-connector-types-polarity-and-applica-103524010.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/mpo-fiber-connector-types-polarity-and-applica-103524010.html",
+    "text": "MPO MTP Fiber Connector: Types, Polarity & Data Center Use",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/singlemode-fiber-vs-multimode-fiber-103518021.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/singlemode-fiber-vs-multimode-fiber-103518021.html",
+    "text": "Single mode fiber vs Multimode Fiber",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-multimode-fiber-om1-vs-om2-om3-om4-om5-103510898.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-multimode-fiber-om1-vs-om2-om3-om4-om5-103510898.html",
+    "text": "Multimode Fiber Types:OM1 OM2 OM3 OM4 OM5",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fire-proof-cable-a-ultimate-guide-103478621.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fire-proof-cable-a-ultimate-guide-103478621.html",
+    "text": "What Is Fire Rated Cable:Types, Ratings & How to Choose",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/top-10-best-network-cable-brands-in2026-103450707.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/top-10-best-network-cable-brands-in2026-103450707.html",
+    "text": "Best Network Cable Brands In 2026",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/power-supply-for-home-security-system-comparis-103383924.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/power-supply-for-home-security-system-comparis-103383924.html",
+    "text": "Power Supply For Home Security Systems: Independent vs PoE vs Centralized",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-many-network-cables-can-each-type-of-pvc-c-103374505.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-many-network-cables-can-each-type-of-pvc-c-103374505.html",
+    "text": "How many network cables can each type of PVC conduit accommodate?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/server-room-cabling-cable-management-standards-103374428.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/server-room-cabling-cable-management-standards-103374428.html",
+    "text": "Data Center Cabling and Cable Management Standards",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/gigabit-vs-fast-ethernet-cables-key-differen-102955289.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/gigabit-vs-fast-ethernet-cables-key-differen-102955289.html",
+    "text": "Fast Ethernet vs Gigabit Ethernet Cable: Key Differences",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/3g-sdi-cable-key-considerations-when-choosing-102946489.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/3g-sdi-cable-key-considerations-when-choosing-102946489.html",
+    "text": "3G SDI cable: How to Choose the Best",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/single-mode-vs-multi-mode-fiber-key-difference-102913048.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/single-mode-vs-multi-mode-fiber-key-difference-102913048.html",
+    "text": "SingleMode vs MultiMode Optical Fiber: What Is The Differences",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-fiber-array-102901448.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-fiber-array-102901448.html",
+    "text": "What is Fiber Array",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-a-fiber-optic-conduit-102897454.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-a-fiber-optic-conduit-102897454.html",
+    "text": "What Is A Fiber Optic Conduit?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/optical-fiber-lan-cable-pigtails-patch-cords-a-102877918.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/optical-fiber-lan-cable-pigtails-patch-cords-a-102877918.html",
+    "text": "Optical fiber lan cable,Pigtails,Patch Cords,And Optical Cables",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/optical-fiber-technician-course-fiber-optic-102871921.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/optical-fiber-technician-course-fiber-optic-102871921.html",
+    "text": "Fiber Optic Technician Course – Learn Fiber Optics Basics",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-choose-best-displayport-cable-10-tips-102865263.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-choose-best-displayport-cable-10-tips-102865263.html",
+    "text": "How to Choose Best DisplayPort Cable: 10 Key Tips",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-cable-connector-types-end-faces-102850762.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-cable-connector-types-end-faces-102850762.html",
+    "text": "Fiber Connector Types, End Faces & Uses",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/different-types-of-fiber-optic-connectors-102841341.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/different-types-of-fiber-optic-connectors-102841341.html",
+    "text": "Different Types Of Fiber Optic Connectors",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-patch-cord-types-102841309.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-optic-patch-cord-types-102841309.html",
+    "text": "Fiber Optic Patch Cord Types",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-choose-a-hdmi-cable-102833712.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-choose-a-hdmi-cable-102833712.html",
+    "text": "How To Choose A HDMI Cable:13 Key Points",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/coaxial-cable-vs-ethernet-cable-102827971.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/coaxial-cable-vs-ethernet-cable-102827971.html",
+    "text": "Coaxial Cable vs Ethernet Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-fiber-distribution-frame-fdf-102824400.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-fiber-distribution-frame-fdf-102824400.html",
+    "text": "Fiber Distribution Frame FDF",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/slim-cat6-cables-feature-application-compariso-102812651.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/slim-cat6-cables-feature-application-compariso-102812651.html",
+    "text": "Cat6 Slim Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-do-twisted-pair-cables-work-types-benefits-102812056.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-do-twisted-pair-cables-work-types-benefits-102812056.html",
+    "text": "How Do Twisted Pair Cables Work?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-terminal-box-vs-optical-cables-102810573.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/fiber-terminal-box-vs-optical-cables-102810573.html",
+    "text": "Termination Box For Fiber Optic Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-vs-fiber-optic-102797890.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-vs-fiber-optic-102797890.html",
+    "text": "Ethernet Cable vs Fiber Optic",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/server-rack-cable-management-for-data-centers-102795209.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/server-rack-cable-management-for-data-centers-102795209.html",
+    "text": "Rack Mount Cable Management",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-rack-cable-management-102783779.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-rack-cable-management-102783779.html",
+    "text": "Rack Mount Wire Management",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/poe-ethernet-cable-power-standards-perform-102782137.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/poe-ethernet-cable-power-standards-perform-102782137.html",
+    "text": "How to increase power over ethernet performance​?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-performance-twist-pitch-tensile-102781433.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-performance-twist-pitch-tensile-102781433.html",
+    "text": "Ethernet cable performance",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-standards-tia-iso11801-en50173-102781230.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-standards-tia-iso11801-en50173-102781230.html",
+    "text": "Network Cable Standards:TIA,EIA,ISO11801,EN50173",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-a-fluke-test-network-cable-testing-102779361.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-a-fluke-test-network-cable-testing-102779361.html",
+    "text": "What Is Fluke Testing?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-jackets-materials-fire-ratings-102779155.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/ethernet-cable-jackets-materials-fire-ratings-102779155.html",
+    "text": "Ethernet Cable Jackets: Materials and Fire Ratings",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/shielded-network-cables-how-to-choose-material-102772902.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/shielded-network-cables-how-to-choose-material-102772902.html",
+    "text": "Shielded Ethernet Cable:How to Choose Material",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cables-types-from-cat5e-to-cat-102769292.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cables-types-from-cat5e-to-cat-102769292.html",
+    "text": "Network Cable Types:Cat5e vs Cat6,Cat7 vs Cat8",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/best-crimping-plier-wire-stripper-punch-tool-102764944.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/best-crimping-plier-wire-stripper-punch-tool-102764944.html",
+    "text": "Best Crimping Plier,Wire Stripper Punch Tool",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/best-patch-panels-effective-network-cable-man-102764441.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/best-patch-panels-effective-network-cable-man-102764441.html",
+    "text": "Best Patch Panels: Effective Network Cable Management Guide",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/importance-of-information-boxes-network-cables-102755669.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/importance-of-information-boxes-network-cables-102755669.html",
+    "text": "Best information boxes, network cables, patch panels&cable managers",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-crimpers-ultimate-guide-to-func-102755337.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-crimpers-ultimate-guide-to-func-102755337.html",
+    "text": "Network Cable Crimper: Functions,Types, Prices & Reviews",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cobtel-faceplate-pdu-patch-cable-keystone-jack-102754541.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cobtel-faceplate-pdu-patch-cable-keystone-jack-102754541.html",
+    "text": "Best Faceplates,PDU,Patch Cable Keystone Jacks&Patch Panel",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/mpo-connector-advantage-in-fiber-optic-network-102747739.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/mpo-connector-advantage-in-fiber-optic-network-102747739.html",
+    "text": "What Are MPO Connectors:Price,Suppliers and Advantages",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/low-smoke-zero-halogen-cables-ultimate-guide-102747638.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/low-smoke-zero-halogen-cables-ultimate-guide-102747638.html",
+    "text": "What is a LSZH Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/must-know-optical-fiber-knowledge-low-voltage-102680111.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/must-know-optical-fiber-knowledge-low-voltage-102680111.html",
+    "text": "Best Fiber Optic Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-main-parts-of-an-optical-transceiver-102677185.html",
+    "text": "What Are Fiber Optical Transceivers?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-high-low-temperature-affect-network-cables-102676291.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-high-low-temperature-affect-network-cables-102676291.html",
+    "text": "How high and low temperature affect newtork cables?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/can-cat5e-cable-support-gigabit-networking-c-102673039.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/can-cat5e-cable-support-gigabit-networking-c-102673039.html",
+    "text": "Difference between Cat5e and Cat6 Cables",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/crimping-pliers-punch-down-tool-wire-stripper-102672800.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/crimping-pliers-punch-down-tool-wire-stripper-102672800.html",
+    "text": "Boosting Efficiency in Low-Voltage Construction: The Role of Network Tools",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-managers-essential-for-data-centers-an-102672403.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-managers-essential-for-data-centers-an-102672403.html",
+    "text": "Network Cable Managers: Essential for Data Centers",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/3-common-issues-surveillance-project-howto-fix-102669838.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/3-common-issues-surveillance-project-howto-fix-102669838.html",
+    "text": "Three Common Issues in Surveillance Projects and How to Fix Them",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/can-a-gigabit-switch-be-connected-to-a-100mbps-102667432.html",
+    "text": "Can a gigabit switch be connected to a 100Mbps network cable?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/lowvoltage-data-center-power-consump-calculate-102654995.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/lowvoltage-data-center-power-consump-calculate-102654995.html",
+    "text": "Why do low-voltage data centers use so much power and how to calculate the po...",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/understanding-and-calculating-fiber-optic-loss-102403491.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/understanding-and-calculating-fiber-optic-loss-102403491.html",
+    "text": "Understanding and Calculating Fiber Optic Loss: Types and Standards",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/all-type-of-data-center-cable-management-clamp-102339035.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/all-type-of-data-center-cable-management-clamp-102339035.html",
+    "text": "Different Types of Data Center Cable Management Clamp and How to Select the R...",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-transmission-limit-100-meters-102200060.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-transmission-limit-100-meters-102200060.html",
+    "text": "Why can't a network cable transmit beyond one hundred meters?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/mpo-connectors-market-overview-102092960.html",
+    "text": "Fiber Optic Connectors: MT, MTRJ, MPO,and MTP",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-are-network-cables-96018274.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-are-network-cables-96018274.html",
+    "text": "What Are Network Cables?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-the-cat-6-cables-95831502.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-the-cat-6-cables-95831502.html",
+    "text": "What are Cat 6 Cables?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-cat-7-twisted-pair-cable-95828510.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-cat-7-twisted-pair-cable-95828510.html",
+    "text": "What is Cat7 Cable?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-twisted-pair-cables-95421114.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-concept-of-twisted-pair-cables-95421114.html",
+    "text": "What Is A Twisted Pair Cable?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-complete-process-of-fiber-optic-fusion-spl-95420260.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-complete-process-of-fiber-optic-fusion-spl-95420260.html",
+    "text": "How to Splice Fiber Optic Cables?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-9-features-of-fiber-optic-cable-systems-95129944.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/the-9-features-of-fiber-optic-cable-systems-95129944.html",
+    "text": "Features of Fiber Optic Cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-laying-in-ducts-trunkings-and-cable-tray-95128318.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-laying-in-ducts-trunkings-and-cable-tray-95128318.html",
+    "text": "Cable Laying: Everyting You Must Know",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-management-tools-and-cable-arrangment-sk-95047384.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/cable-management-tools-and-cable-arrangment-sk-95047384.html",
+    "text": "Cable Management Tools and skills in data centers",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-wire-your-house-with-ethernet-cables-93666528.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/how-to-wire-your-house-with-ethernet-cables-93666528.html",
+    "text": "How To Wire Your House With Ethernet Cables",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-cat8-cable-and-what-is-its-application-85880099.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-cat8-cable-and-what-is-its-application-85880099.html",
+    "text": "What is the Cat8 Cable ?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-the-most-comprehensive-knowlege-85506714.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/network-cable-the-most-comprehensive-knowlege-85506714.html",
+    "text": "Network Cable Explained",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-industiral-ethernet-and-profinet-cable-85433421.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-industiral-ethernet-and-profinet-cable-85433421.html",
+    "text": "What Is Profinet Cable?",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-the-shielded-cable-85077507.html",
+    "text": "",
+    "cls": "news-item-img lazy-wrap lazy-loaded",
+    "parentCls": "fadeUp"
+  },
+  {
+    "href": "https://www.cobtel.com/info/what-is-the-shielded-cable-85077507.html",
+    "text": "What is the shielded cable",
+    "cls": "news-name line2",
+    "parentCls": "news-cont"
+  },
+  {
+    "href": "https://www.cobtel.com/products",
+    "text": "Nework Cabling",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://cn-cob.com/",
+    "text": "Find solar inverters, photovoltaic modules, & solar storage products from our su",
+    "cls": "",
+    "parentCls": "foot-information"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/",
+    "text": "Patch Cord Or Raw Cable",
+    "cls": "",
+    "parentCls": "side_nav1"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/",
+    "text": "Cable Manager",
+    "cls": "",
+    "parentCls": "side_nav1"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "common": {
+    "siteName": "Detwiler Tech",
+    "tagline": "智连未来 · 卓越线缆",
+    "loading": "加载中...",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "submit": "提交",
+    "cancel": "取消",
+    "close": "关闭",
+    "search": "搜索",
+    "language": "语言",
+    "currency": "货币",
+    "quickAdd": "快速添加"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "RJ45 模块插头",
+    "solutions": "Keystone 插座",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "news": "Patch Panels"
+  },
+  "home": {
+    "announcement": "B2B 源头制造商 - 获取免费样品",
+    "featuredProducts": "核心产品",
+    "featuredProductsDesc": "",
+    "heroTitle": "",
+    "heroSubtitle": "",
+    "heroCtaPrimary": "浏览产品",
+    "heroCtaSecondary": "立即询价",
+    "whyChooseUs": "为何选择 Detwiler Tech",
+    "whyChooseUsDesc": "",
+    "reasons": {
+      "quality": {
+        "title": "权威认证",
+        "desc": "通过 ISO 9001、CE、RoHS、UL 等国际认证，符合各地区准入标准。"
+      },
+      "oem": {
+        "title": "OEM/ODM 定制",
+        "desc": "支持品牌定制、包装设计与规格调整，匹配您的目标市场。"
+      },
+      "fastDelivery": {
+        "title": "快速交付",
+        "desc": "样品 3-5 天发货，批量订单 15-25 个工作日内完成。"
+      },
+      "support": {
+        "title": "全天候支持",
+        "desc": "跨时区销售工程师与售后团队，随时响应您的需求。"
+      }
+    },
+    "paymentMethods": "灵活的支付与贸易条款",
+    "paymentMethodsDesc": "多种支付方式与 Incoterms，匹配您的业务模式",
+    "certifications": "认证与信任",
+    "ctaTitle": "准备开启您的项目？",
+    "ctaDesc": "联系我们的销售团队，获取报价、样品或技术支持。",
+    "aboutTitle": "关于 Detwiler Tech",
+    "aboutDesc": "Detwiler Tech 是一家专业的 OEM/ODM 制造商，专注于光纤解决方案、结构化布线系统及服务器升级光模块解决方案。我们提供兼容及开箱光模块、MPO/MTP 产品、光纤布线、RJ45 连接器、Keystone 插座、配线架、机柜及完整的网络基础设施解决方案。\n\n兼容思科、华为、中兴、H3C、瞻博、Arista 和诺基亚等主流品牌，我们以可靠的品质、有竞争力的价格和快速的全球服务，成为您值得信赖的一站式网络合作伙伴。",
+    "contactTitle": "联系我们（获取报价）",
+    "contactName": "姓名",
+    "contactEmail": "邮箱",
+    "contactPhone": "电话",
+    "contactMessage": "您的留言",
+    "contactSend": "发送"
+  },
+  "products": {
+    "title": "产品中心",
+    "subtitle": "浏览我们全系列的线缆与连接解决方案",
+    "categories": "产品分类",
+    "allCategories": "全部分类",
+    "noProducts": "该分类下暂无产品。",
+    "inquireNow": "立即询价",
+    "inquireByEmail": "邮件询盘",
+    "inquireByWhatsApp": "WhatsApp",
+    "specifications": "规格参数",
+    "description": "产品描述",
+    "downloadPdf": "下载规格书",
+    "relatedProducts": "相关产品",
+    "backToList": "返回产品列表",
+    "all": "全部",
+    "searchPlaceholder": "搜索产品名 / SKU",
+    "showingCount": "共 {count} 款产品"
+  },
+  "inquiry": {
+    "title": "发起询盘",
+    "formTitle": "获取免费报价",
+    "formDesc": "请填写以下信息，我们将在 24 小时内与您联系。",
+    "fields": {
+      "name": "姓名",
+      "company": "公司名称",
+      "email": "邮箱",
+      "phone": "电话 / WhatsApp",
+      "country": "国家",
+      "quantity": "预计数量",
+      "message": "需求详情",
+      "product": "产品"
+    },
+    "placeholders": {
+      "name": "张三",
+      "company": "您的公司",
+      "email": "you@company.com",
+      "phone": "+86 138 0000 0000",
+      "country": "中国",
+      "quantity": "如：1000 件 / 1x20尺柜",
+      "message": "请描述您的需求、目标价、交期等"
+    },
+    "submit": "发送询盘",
+    "submitting": "发送中...",
+    "success": "感谢您的询盘！我们已收到，将在 24 小时内回复。",
+    "errorGeneric": "提交失败，请稍后再试或直接通过邮件联系我们。"
+  },
+  "about": {
+    "title": "关于 Detwiler Tech",
+    "subtitle": "构筑现代基础设施的连接基石",
+    "story": {
+      "title": "我们的故事",
+      "content": "Detwiler Tech 致力于向全球市场提供高品质线缆与连接解决方案，是电信运营商、电力工程商与工业集成商可信赖的合作伙伴。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "content": "打造可靠、合规、高性价比的连接产品，助力客户构建未来网络。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "items": {
+        "quality": "品质为先",
+        "integrity": "诚信为本",
+        "innovation": "创新驱动",
+        "partnership": "客户共赢"
+      }
+    },
+    "stats": {
+      "title": "用数据说话",
+      "countries": "服务国家",
+      "experience": "行业经验",
+      "products": "产品系列",
+      "customers": "合作客户"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "期待与您合作，欢迎通过以下任一方式联系我们。",
+    "formTitle": "给我们留言",
+    "infoTitle": "联系方式",
+    "address": "公司地址",
+    "phone": "电话",
+    "email": "邮箱",
+    "whatsapp": "WhatsApp",
+    "hours": "营业时间",
+    "hoursValue": "周一至周五 9:00 - 18:00 (GMT+8)"
+  },
+  "footer": {
+    "company": "公司",
+    "products": "产品",
+    "support": "支持",
+    "contact": "联系我们",
+    "newsletter": "订阅资讯",
+    "newsletterDesc": "订阅以获取产品更新与行业洞察。",
+    "subscribe": "订阅",
+    "yourEmail": "您的邮箱",
+    "rights": "保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "trackingOrder": "订单追踪",
+    "refundPolicy": "退款政策",
+    "shippingPolicy": "配送政策"
+  },
+  "payment": {
+    "cod": "货到付款",
+    "tt": "T/T 电汇",
+    "wu": "西联汇款",
+    "paypal": "PayPal",
+    "stripe": "信用卡",
+    "alipay": "支付宝",
+    "wechat": "微信支付",
+    "comingSoon": "即将上线"
+  }
+}

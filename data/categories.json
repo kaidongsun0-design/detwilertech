@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "network-cable",
+    "name": {
+      "en": "Network Cable",
+      "zh": "网络线缆"
+    },
+    "order": 1,
+    "count": 6,
+    "sampleImage": "/products/cat6-lan.jpg"
+  },
+  {
+    "slug": "fiber-optic",
+    "name": {
+      "en": "Fiber Optic",
+      "zh": "光纤光缆"
+    },
+    "order": 2,
+    "count": 3,
+    "sampleImage": "/products/fiber-optic.jpg"
+  },
+  {
+    "slug": "power-cable",
+    "name": {
+      "en": "Power Cable",
+      "zh": "电力电缆"
+    },
+    "order": 3,
+    "count": 3,
+    "sampleImage": "/products/xlpe-power.jpg"
+  },
+  {
+    "slug": "solar-cable",
+    "name": {
+      "en": "Solar Cable",
+      "zh": "太阳能电缆"
+    },
+    "order": 4,
+    "count": 1,
+    "sampleImage": "/products/solar-cable.jpg"
+  },
+  {
+    "slug": "rj45-connector",
+    "name": {
+      "en": "RJ45 Connector",
+      "zh": "RJ45 连接器"
+    },
+    "order": 5,
+    "count": 8,
+    "sampleImage": "/products/cobtel-1781620546041-61.jpg"
+  },
+  {
+    "slug": "keystone-jack",
+    "name": {
+      "en": "Keystone Jack",
+      "zh": " Keystone"
+    },
+    "order": 6,
+    "count": 2,
+    "sampleImage": "/products/cobtel-1781620511653-27.jpg"
+  },
+  {
+    "slug": "patch-panel",
+    "name": {
+      "en": "Patch Panel",
+      "zh": "配线架"
+    },
+    "order": 7,
+    "count": 2,
+    "sampleImage": "/products/cobtel-1781620706696-61.jpg"
+  },
+  {
+    "slug": "cable-manager",
+    "name": {
+      "en": "Cable Manager",
+      "zh": "理线器"
+    },
+    "order": 8,
+    "count": 2,
+    "sampleImage": "/products/cobtel-1781620722029-68.jpg"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "href": "https://drive.google.com/file/d/1s_R6b3MsQ6jgEJFvBjxAAghjRwIoINIs/view?usp=share_link",
+    "text": "Product Catalog",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/production-capacity",
+    "text": "Production Capacity",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/products",
+    "text": "Nework Cabling",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat5e-modular-plug/",
+    "text": "CAT5E Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat6-modular-plug/",
+    "text": "CAT6 Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/rj45-modular-plug/cat6a-modular-plug/",
+    "text": "Cat6a Modular Plug",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat5e-keystone-jack/",
+    "text": "CAT5E Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6-keystone-jack/",
+    "text": "CAT6 Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/keystone-jack/cat6a-keystone-jack/",
+    "text": "CAT6A Keystone Jack",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/",
+    "text": "Patch Cord Or Raw Cable",
+    "cls": "",
+    "parentCls": "menu-item LiLevel1"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat5e-patch-cord/",
+    "text": "CAT5E Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat6-patch-cord/",
+    "text": "CAT6 Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/cat6a-patch-cord/",
+    "text": "CAT6A Patch Cord",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/fiber-optic-cable/",
+    "text": "Fiber Optics",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/industrial-ethernet-cable/",
+    "text": "Industrial Ethernet Cable",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/charging-cable/",
+    "text": "Charging Cable",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/bulk-cable/",
+    "text": "Cable Spool",
+    "cls": "",
+    "parentCls": "LiLevel2"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/",
+    "text": "Cable Manager",
+    "cls": "",
+    "parentCls": "menu-item LiLevel1"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/",
+    "text": "Optical Communication",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/dac-aoc-cables/",
+    "text": "DAC/AOC Cable",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/optical-modules/",
+    "text": "Optical Module",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-patch-cord/",
+    "text": "Fiber Patch Cord",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/mpo-patch-cord/",
+    "text": "MPO Patch Cord",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/optical-communication-products/fiber-optic-connector/",
+    "text": "Fiber Optic Connector",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://www.cobtel.com/smart-home/power-supply-socket/",
+    "text": "Power Supply Socket",
+    "cls": "",
+    "parentCls": "side_nav2"
+  },
+  {
+    "href": "https://pt.cobtel.com/production-capacity",
+    "text": "Português",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://de.cobtel.com/production-capacity",
+    "text": "Deutsch",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://fr.cobtel.com/production-capacity",
+    "text": "Français",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://ru.cobtel.com/production-capacity",
+    "text": "русский",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://it.cobtel.com/production-capacity",
+    "text": "Italiano",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://ja.cobtel.com/production-capacity",
+    "text": "日本語",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://es.cobtel.com/production-capacity",
+    "text": "Español",
+    "cls": "",
+    "parentCls": ""
+  },
+  {
+    "href": "https://www.cobtel.com/products",
+    "text": "Nework Cabling",
+    "cls": "inmenu",
+    "parentCls": ""
+  },
+  {
+    "href": "https://cn-cob.com/",
+    "text": "Find solar inverters, photovoltaic modules, & solar storage products from our su",
+    "cls": "",
+    "parentCls": "foot-information"
+  },
+  {
+    "href": "https://www.cobtel.com/patch-cord-or-jumper/",
+    "text": "Patch Cord Or Raw Cable",
+    "cls": "",
+    "parentCls": "side_nav1"
+  },
+  {
+    "href": "https://www.cobtel.com/cable-manager/",
+    "text": "Cable Manager",
+    "cls": "",
+    "parentCls": "side_nav1"
+  }
+]

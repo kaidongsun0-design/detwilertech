@@ -1,0 +1,178 @@
+{
+  "common": {
+    "siteName": "Detwiler Tech",
+    "tagline": "Engineered for the Future of Connectivity",
+    "loading": "Loading...",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "language": "Language",
+    "currency": "Currency",
+    "quickAdd": "Quick Add"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "RJ45 Modular Plug",
+    "solutions": "Keystone Jacks",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "news": "Patch Panels"
+  },
+  "home": {
+    "announcement": "B2B Source Manufacturers - Get Free Samples",
+    "featuredProducts": "Feature Products",
+    "featuredProductsDesc": "",
+    "heroTitle": "",
+    "heroSubtitle": "",
+    "heroCtaPrimary": "Browse Products",
+    "heroCtaSecondary": "Get a Quote",
+    "whyChooseUs": "Why Choose Detwiler Tech",
+    "whyChooseUsDesc": "",
+    "reasons": {
+      "quality": {
+        "title": "Certified Quality",
+        "desc": "ISO 9001, CE, RoHS, UL certified products meeting international standards."
+      },
+      "oem": {
+        "title": "OEM & ODM Service",
+        "desc": "Custom branding, packaging, and specifications tailored to your market."
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "desc": "Sample orders in 3-5 days, bulk orders within 15-25 working days."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "Dedicated sales engineers and after-sales team across time zones."
+      }
+    },
+    "paymentMethods": "Flexible Payment & Shipping Terms",
+    "paymentMethodsDesc": "Multiple payment options and Incoterms to suit your business",
+    "certifications": "Certifications & Trust",
+    "ctaTitle": "Ready to Start Your Project?",
+    "ctaDesc": "Get in touch with our sales team for quotes, samples, or technical consultation.",
+    "aboutTitle": "About Detwiler Tech",
+    "aboutDesc": "Detwiler Tech is a professional OEM/ODM manufacturer specializing in Fiber Optic Solutions, Structured Cabling Systems, and Server Upgrade Transceiver Solutions. We provide compatible and open-box optical transceivers, MPO/MTP products, fiber cabling, RJ45 connectors, keystone jacks, patch panels, racks, and complete network infrastructure solutions.\n\nCompatible with leading brands including Cisco, Huawei, ZTE, H3C, Juniper, Arista, and Nokia, we deliver reliable quality, competitive pricing, and fast global service as your trusted one-stop networking partner.",
+    "contactTitle": "Contact us（Get Quato）",
+    "contactName": "Name",
+    "contactEmail": "Email",
+    "contactPhone": "Phone",
+    "contactMessage": "Your message",
+    "contactSend": "Send"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Browse our complete range of cable and connectivity solutions",
+    "categories": "Categories",
+    "allCategories": "All Categories",
+    "noProducts": "No products found in this category.",
+    "inquireNow": "Inquire Now",
+    "inquireByEmail": "Email Inquiry",
+    "inquireByWhatsApp": "WhatsApp",
+    "specifications": "Specifications",
+    "description": "Description",
+    "downloadPdf": "Download Datasheet",
+    "relatedProducts": "Related Products",
+    "backToList": "Back to Products",
+    "all": "All",
+    "searchPlaceholder": "Search name or SKU...",
+    "showingCount": "Showing {count} products"
+  },
+  "inquiry": {
+    "title": "Send Inquiry",
+    "formTitle": "Get a Free Quote",
+    "formDesc": "Fill out the form below and our team will get back to you within 24 hours.",
+    "fields": {
+      "name": "Full Name",
+      "company": "Company Name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "country": "Country",
+      "quantity": "Estimated Quantity",
+      "message": "Message / Requirements",
+      "product": "Product"
+    },
+    "placeholders": {
+      "name": "John Smith",
+      "company": "Your company",
+      "email": "you@company.com",
+      "phone": "+1 234 567 8900",
+      "country": "United States",
+      "quantity": "e.g., 1000 pcs / 1x20' FCL",
+      "message": "Tell us about your requirements, target price, delivery time, etc."
+    },
+    "submit": "Send Inquiry",
+    "submitting": "Sending...",
+    "success": "Thank you! Your inquiry has been received. We'll be in touch within 24 hours.",
+    "errorGeneric": "Something went wrong. Please try again or contact us directly via email."
+  },
+  "about": {
+    "title": "About Detwiler Tech",
+    "subtitle": "Building the Backbone of Modern Infrastructure",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded with a vision to deliver premium cable and connectivity solutions to the global market, Detwiler Tech has grown into a trusted partner for telecom operators, electrical contractors, and industrial integrators worldwide."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To engineer reliable, certified, and cost-effective connectivity products that empower our customers to build the networks of tomorrow."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": {
+        "quality": "Quality First",
+        "integrity": "Integrity Always",
+        "innovation": "Innovation Driven",
+        "partnership": "Customer Partnership"
+      }
+    },
+    "stats": {
+      "title": "By the Numbers",
+      "countries": "Countries Served",
+      "experience": "Years of Experience",
+      "products": "Product Lines",
+      "customers": "Happy Clients"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Reach out via any channel below.",
+    "formTitle": "Send Us a Message",
+    "infoTitle": "Get in Touch",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "hours": "Business Hours",
+    "hoursValue": "Mon-Fri: 9:00 - 18:00 (GMT+8)"
+  },
+  "footer": {
+    "company": "Company",
+    "products": "Products",
+    "support": "Support",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to get product updates and industry insights.",
+    "subscribe": "Subscribe",
+    "yourEmail": "Your email",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "trackingOrder": "Tracking Order",
+    "refundPolicy": "Refund Policy",
+    "shippingPolicy": "Shipping Policy"
+  },
+  "payment": {
+    "cod": "Cash on Delivery",
+    "tt": "T/T Transfer",
+    "wu": "Western Union",
+    "paypal": "PayPal",
+    "stripe": "Credit Card",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "comingSoon": "Coming Soon"
+  }
+}
