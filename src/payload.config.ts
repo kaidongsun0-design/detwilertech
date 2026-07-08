@@ -26,9 +26,18 @@ export default buildConfig({
   },
   db: postgresAdapter({
     pool: {
-      connectionString:
-        process.env.DATABASE_URI ||
-        'postgres://localhost:5432/detwilertech',
+      connectionString: (() => {
+        const uri = process.env.DATABASE_URI || 'postgres://localhost:5432/detwilertech'
+        // Neon 等云数据库要求 SSL
+        if (!uri.includes('sslmode')) {
+          return uri + (uri.includes('?') ? '&' : '?') + 'sslmode=require'
+        }
+        return uri
+      })(),
+      // Serverless 环境必须限制连接数
+      max: 5,
+      idleTimeoutMillis: 30000,
+      connectionTimeoutMillis: 10000,
     },
   }),
   editor: lexicalEditor({}),
