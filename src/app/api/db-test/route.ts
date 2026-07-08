@@ -12,7 +12,7 @@ export async function GET() {
   try {
     const pg = await import('pg')
     result.pgLoaded = 'OK'
-    result.pgVersion = pg.default?.version || 'unknown'
+    result.pgVersion = 'loaded'
 
     // Step 2: 尝试连接数据库
     try {

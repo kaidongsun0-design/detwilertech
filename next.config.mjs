@@ -15,7 +15,6 @@ const distDir =
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
   distDir,
   reactStrictMode: true,
   images: {
@@ -31,7 +30,7 @@ const nextConfig = {
     reactCompiler: false,
   },
   // 优化 server external packages for Payload
-  serverExternalPackages: ['libsql', '@libsql/client', 'better-sqlite3'],
+  serverExternalPackages: ['libsql', '@libsql/client', 'better-sqlite3', 'pg', 'payload', '@payloadcms/db-postgres'],
 }
 
 export default withPayload(withNextIntl(nextConfig))
