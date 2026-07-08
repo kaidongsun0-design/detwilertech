@@ -24,7 +24,7 @@ interface Props {
 
 /**
  * 产品详情页 — 三大询盘入口
- *  1. 立即询盘 → 弹窗表单 → 提交到 /api/inquiries
+ *  1. 立即询盘 → 弹窗表单 → 提交到 /api/submit-inquiry
  *  2. 邮件询盘 → mailto: 预填主题和正文
  *  3. WhatsApp → wa.me 短链,预填文本
  */
@@ -165,7 +165,7 @@ export function InquiryForm({
       locale,
     }
     try {
-      const resp = await fetch('/api/inquiries', {
+      const resp = await fetch('/api/submit-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),

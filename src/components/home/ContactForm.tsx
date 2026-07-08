@@ -29,7 +29,7 @@ export function ContactForm() {
     }
 
     try {
-      const resp = await fetch('/api/inquiries', {
+      const resp = await fetch('/api/submit-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
