@@ -18,7 +18,7 @@
     "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "next": "15.1.12",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "payload": "3.20.0",
@@ -61,7 +61,7 @@
     "postcss": "^8.4.47",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
-    "eslint-config-next": "15.1.6",
+    "eslint-config-next": "15.1.12",
     "playwright": "^1.48.0",
     "cheerio": "^1.0.0"
   },
