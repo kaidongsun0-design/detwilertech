@@ -1,22 +1,48 @@
 'use client'
 
 import { useState, type FormEvent } from 'react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 
 /**
  * ContactForm — 匹配参考站 "Contact us（Get Quato）" 区域
+ * 提交到 /api/inquiries，数据存入 Payload CMS
  */
 export function ContactForm() {
   const t = useTranslations('home')
-  const [status, setStatus] = useState<'idle' | 'sending' | 'sent'>('idle')
+  const locale = useLocale()
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+  const [errMsg, setErrMsg] = useState('')
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setStatus('sending')
-    // 模拟发送
-    setTimeout(() => {
+    setErrMsg('')
+
+    const fd = new FormData(e.currentTarget)
+    const data = {
+      name: String(fd.get('name') || ''),
+      email: String(fd.get('email') || ''),
+      phone: String(fd.get('phone') || ''),
+      message: String(fd.get('message') || ''),
+      source: 'contact-page',
+      locale,
+    }
+
+    try {
+      const resp = await fetch('/api/inquiries', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+      const json = await resp.json()
+      if (!resp.ok || !json.ok) {
+        throw new Error(json.error || `HTTP ${resp.status}`)
+      }
       setStatus('sent')
-    }, 1000)
+    } catch (e: unknown) {
+      setStatus('error')
+      setErrMsg(e instanceof Error ? e.message : 'Submit failed')
+    }
   }
 
   return (
@@ -33,8 +59,12 @@ export function ContactForm() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <p className="text-lg font-medium text-gray-800">Thank you! Your message has been sent.</p>
-            <p className="text-sm text-gray-500 mt-2">We will get back to you within 24 hours.</p>
+            <p className="text-lg font-medium text-gray-800">
+              {locale === 'zh' ? '感谢您的留言！已发送成功。' : 'Thank you! Your message has been sent.'}
+            </p>
+            <p className="text-sm text-gray-500 mt-2">
+              {locale === 'zh' ? '我们将在 24 小时内回复您。' : 'We will get back to you within 24 hours.'}
+            </p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-5">
@@ -82,16 +112,24 @@ export function ContactForm() {
               <textarea
                 name="message"
                 rows={6}
+                required
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition resize-none"
                 placeholder={t('contactMessage')}
               />
             </div>
+
+            {status === 'error' && (
+              <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+                {locale === 'zh' ? '提交失败: ' : 'Submit failed: '}{errMsg}
+              </div>
+            )}
+
             <button
               type="submit"
               disabled={status === 'sending'}
               className="w-full py-3 bg-red-600 hover:bg-red-700 disabled:bg-red-400 text-white font-semibold rounded-lg transition-colors"
             >
-              {status === 'sending' ? 'Sending...' : t('contactSend')}
+              {status === 'sending' ? (locale === 'zh' ? '发送中...' : 'Sending...') : t('contactSend')}
             </button>
           </form>
         )}

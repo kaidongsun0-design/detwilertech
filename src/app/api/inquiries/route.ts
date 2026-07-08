@@ -5,50 +5,18 @@
  *   body: InquiryInput
  *   response: { ok: true, id } | { ok: false, error }
  *
- * 行为:
- *   1. 校验
- *   2. 写入本地 JSON (data/inquiries.json) — 兜底,生产可切 Payload
- *   3. 如果配置了 RESEND_API_KEY,异步发邮件
- *   4. 如果配置了 TURNSTILE_SECRET_KEY,验证 token
+ * 使用 Payload local API 写入数据库（兼容 Vercel serverless）。
+ * 同时异步发邮件通知（如配置了 RESEND_API_KEY）。
  */
 
 import { NextRequest, NextResponse } from 'next/server'
-import { readFile, writeFile, mkdir, access } from 'node:fs/promises'
-import { join } from 'node:path'
-import { InquiryInput, InquiryRecord, normalize, validateInquiry } from '@/lib/inquiry-store'
+import { getPayload } from 'payload'
+import config from '@payload-config'
+import { InquiryInput, validateInquiry } from '@/lib/inquiry-store'
 
 export const runtime = 'nodejs'
 
-const DATA_FILE = join(process.cwd(), 'data', 'inquiries.json')
-
-async function ensureFile() {
-  try {
-    await access(DATA_FILE)
-  } catch {
-    await mkdir(join(process.cwd(), 'data'), { recursive: true })
-    await writeFile(DATA_FILE, '[]', 'utf-8')
-  }
-}
-
-async function readAll(): Promise<InquiryRecord[]> {
-  await ensureFile()
-  try {
-    const raw = await readFile(DATA_FILE, 'utf-8')
-    return JSON.parse(raw) as InquiryRecord[]
-  } catch {
-    return []
-  }
-}
-
-async function append(record: InquiryRecord) {
-  const list = await readAll()
-  list.unshift(record)
-  // 截断到 5000 条
-  if (list.length > 5000) list.length = 5000
-  await writeFile(DATA_FILE, JSON.stringify(list, null, 2), 'utf-8')
-}
-
-async function sendEmail(record: InquiryRecord) {
+async function sendEmail(record: { id: string; subject: string; name: string; company?: string | null; email: string; phone?: string | null; country?: string | null; quantity?: string | null; message: string; source?: string | null; locale?: string | null }) {
   const key = process.env.RESEND_API_KEY
   const from = process.env.RESEND_FROM_EMAIL || 'noreply@detwilertech.com'
   const to = process.env.SALES_NOTIFY_EMAIL || process.env.NEXT_PUBLIC_SALES_EMAIL || 'sales@detwilertech.com'
@@ -81,19 +49,16 @@ function escapeHtml(s: string) {
     .replace(/'/g, '&#039;')
 }
 
-function buildEmailHtml(r: InquiryRecord) {
+function buildEmailHtml(r: Record<string, unknown>) {
   const rows: Array<[string, string | null]> = [
-    ['Subject', r.subject],
-    ['From', r.name + (r.company ? ` (${r.company})` : '')],
-    ['Email', r.email],
-    ['Phone', r.phone],
-    ['Country', r.country],
-    ['Quantity', r.quantity],
-    ['Product', r.productName ? `${r.productName} (SKU: ${r.product})` : null],
-    ['Locale', r.locale ?? 'en'],
-    ['Source', r.source ?? 'form'],
-    ['IP', r.ip],
-    ['UTM', [r.utmSource, r.utmMedium, r.utmCampaign].filter(Boolean).join(' / ') || null],
+    ['Subject', (r.subject as string) ?? null],
+    ['From', ((r.name as string) || '') + (r.company ? ` (${r.company})` : '')],
+    ['Email', (r.email as string) ?? null],
+    ['Phone', (r.phone as string) ?? null],
+    ['Country', (r.country as string) ?? null],
+    ['Quantity', (r.quantity as string) ?? null],
+    ['Locale', (r.locale as string) ?? 'en'],
+    ['Source', (r.source as string) ?? 'form'],
   ]
   const rowsHtml = rows
     .filter(([, v]) => v)
@@ -109,17 +74,17 @@ function buildEmailHtml(r: InquiryRecord) {
       <h2 style="margin:0 0 16px;color:#111">New inquiry from Detwiler Tech website</h2>
       <table style="width:100%;border-collapse:collapse;font-size:14px">${rowsHtml}</table>
       <h3 style="margin:24px 0 8px;color:#111">Message</h3>
-      <div style="padding:12px;background:#f6f8fa;border-left:4px solid #2563eb;white-space:pre-wrap">${escapeHtml(
-        r.message,
+      <div style="padding:12px;background:#f6f8fa;border-left:4px solid #c41230;white-space:pre-wrap">${escapeHtml(
+        (r.message as string) || '',
       )}</div>
       <p style="margin-top:24px;color:#6b7280;font-size:12px">
-        Reply directly to <a href="mailto:${escapeHtml(r.email)}">${escapeHtml(r.email)}</a>.
+        Reply directly to <a href="mailto:${escapeHtml((r.email as string) || '')}">${escapeHtml((r.email as string) || '')}</a>.
       </p>
     </div>
   `
 }
 
-function buildEmailText(r: InquiryRecord) {
+function buildEmailText(r: Record<string, unknown>) {
   return [
     `Subject: ${r.subject}`,
     `From: ${r.name}${r.company ? ` (${r.company})` : ''}`,
@@ -127,7 +92,6 @@ function buildEmailText(r: InquiryRecord) {
     r.phone ? `Phone: ${r.phone}` : '',
     r.country ? `Country: ${r.country}` : '',
     r.quantity ? `Quantity: ${r.quantity}` : '',
-    r.productName ? `Product: ${r.productName} (SKU: ${r.product})` : '',
     `Locale: ${r.locale ?? 'en'}`,
     `Source: ${r.source ?? 'form'}`,
     '',
@@ -142,17 +106,13 @@ export async function POST(req: NextRequest) {
   try {
     const body = (await req.json()) as Partial<InquiryInput>
 
-    // 注入 IP / UA / UTM
+    // 注入 IP / UA
     const ip =
       req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
       req.headers.get('x-real-ip') ||
       ''
     const ua = req.headers.get('user-agent') || ''
-    const utm = {
-      utmSource: req.headers.get('x-utm-source') || '',
-      utmMedium: req.headers.get('x-utm-medium') || '',
-      utmCampaign: req.headers.get('x-utm-campaign') || '',
-    }
+
     const merged: InquiryInput = {
       name: body.name ?? '',
       company: body.company,
@@ -167,9 +127,9 @@ export async function POST(req: NextRequest) {
       locale: body.locale,
       ip,
       userAgent: ua,
-      utmSource: body.utmSource || utm.utmSource,
-      utmMedium: body.utmMedium || utm.utmMedium,
-      utmCampaign: body.utmCampaign || utm.utmCampaign,
+      utmSource: body.utmSource,
+      utmMedium: body.utmMedium,
+      utmCampaign: body.utmCampaign,
     }
 
     const err = validateInquiry(merged)
@@ -177,13 +137,56 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: false, error: err }, { status: 400 })
     }
 
-    const record = normalize(merged)
-    await append(record)
+    // 使用 Payload local API 写入数据库（兼容 Vercel serverless）
+    const subject = merged.productName
+      ? `Inquiry about ${merged.productName}${merged.quantity ? ` (${merged.quantity})` : ''}`
+      : `Website inquiry from ${merged.name}`
 
-    // 异步发邮件(失败不影响写入)
-    void sendEmail(record).catch((e) => console.error('[inquiry] send email', e))
+    // 构建 tracking 信息
+    const tracking = {
+      ip: merged.ip || undefined,
+      userAgent: merged.userAgent || undefined,
+      utmSource: merged.utmSource || undefined,
+      utmMedium: merged.utmMedium || undefined,
+      utmCampaign: merged.utmCampaign || undefined,
+    }
 
-    return NextResponse.json({ ok: true, id: record.id, createdAt: record.createdAt })
+    const payload = await getPayload({ config })
+    const doc = await payload.create({
+      collection: 'inquiries',
+      data: {
+        subject,
+        name: merged.name.trim(),
+        company: merged.company?.trim() || undefined,
+        email: merged.email.trim().toLowerCase(),
+        phone: merged.phone?.trim() || undefined,
+        country: merged.country?.trim() || undefined,
+        quantity: merged.quantity?.trim() || undefined,
+        message: merged.message.trim(),
+        source: merged.source ?? 'form',
+        status: 'new',
+        locale: merged.locale ?? 'en',
+        tracking,
+        _status: 'published',
+      },
+    })
+
+    // 异步发邮件（失败不影响写入）
+    void sendEmail({
+      id: String(doc.id),
+      subject,
+      name: merged.name.trim(),
+      company: merged.company?.trim() || null,
+      email: merged.email.trim().toLowerCase(),
+      phone: merged.phone?.trim() || null,
+      country: merged.country?.trim() || null,
+      quantity: merged.quantity?.trim() || null,
+      message: merged.message.trim(),
+      source: merged.source ?? 'form',
+      locale: merged.locale ?? 'en',
+    }).catch((e) => console.error('[inquiry] send email', e))
+
+    return NextResponse.json({ ok: true, id: doc.id, createdAt: doc.createdAt })
   } catch (e) {
     console.error('[inquiry] POST error', e)
     return NextResponse.json({ ok: false, error: 'Invalid request' }, { status: 400 })
@@ -191,6 +194,5 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET() {
-  // GET 用于健康检查;真实询盘读取在 /admin 后台
   return NextResponse.json({ ok: true, hint: 'POST to submit an inquiry' })
 }
