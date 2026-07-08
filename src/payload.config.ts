@@ -26,7 +26,9 @@ export default buildConfig({
   },
   db: sqliteAdapter({
     client: {
-      url: process.env.DATABASE_URI || 'file:./data/payload.db',
+      // Vercel serverless 只能用 /tmp 写文件
+      url: process.env.DATABASE_URI ||
+        (process.env.VERCEL ? 'file:/tmp/payload.db' : 'file:./data/payload.db'),
     },
   }),
   editor: lexicalEditor({}),

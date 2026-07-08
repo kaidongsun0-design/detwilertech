@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from 'next-intl'
 
 /**
  * ContactForm — 匹配参考站 "Contact us（Get Quato）" 区域
- * 提交到 /api/inquiries，数据存入 Payload CMS
+ * 提交到 /api/submit-inquiry → Payload CMS
  */
 export function ContactForm() {
   const t = useTranslations('home')
