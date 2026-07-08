@@ -1,7 +1,6 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { buildConfig } from 'payload'
-import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { postgresAdapter } from '@payloadcms/db-postgres'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 
@@ -15,20 +14,6 @@ import { Settings } from './collections/Settings'
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
-// 本地用 SQLite，生产用 PostgreSQL
-const db = process.env.DATABASE_URI?.startsWith('postgres')
-  ? postgresAdapter({
-      pool: {
-        connectionString: process.env.DATABASE_URI,
-      },
-    })
-  : sqliteAdapter({
-      client: {
-        url: process.env.DATABASE_URI ||
-          (process.env.VERCEL ? 'file:/tmp/payload.db' : 'file:./data/payload.db'),
-      },
-    })
-
 export default buildConfig({
   admin: {
     user: Users.slug,
@@ -39,7 +24,13 @@ export default buildConfig({
       titleSuffix: ' — Detwiler Tech',
     },
   },
-  db,
+  db: postgresAdapter({
+    pool: {
+      connectionString:
+        process.env.DATABASE_URI ||
+        'postgres://localhost:5432/detwilertech',
+    },
+  }),
   editor: lexicalEditor({}),
   collections: [Users, Media, Categories, Products, Inquiries, Settings],
   secret: process.env.PAYLOAD_SECRET || 'dev-only-secret-replace-in-production-32chars',
