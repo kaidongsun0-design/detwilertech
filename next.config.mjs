@@ -30,6 +30,7 @@ const nextConfig = {
     reactCompiler: false,
   },
   // 优化 server external packages for Payload
+  // 确保 Vercel serverless 运行时不会把这些包打进去
   serverExternalPackages: ['libsql', '@libsql/client', 'better-sqlite3', 'pg', 'payload', '@payloadcms/db-postgres'],
 }
 
